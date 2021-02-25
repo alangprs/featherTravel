@@ -89,12 +89,20 @@
                                 <attributedString key="attributedText"/>
                                 <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7H1-rN-Bui">
-                                <rect key="frame" x="20" y="182" width="374" height="288"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7H1-rN-Bui">
+                                <rect key="frame" x="57" y="182" width="300" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="facebook_logos_PNG19754">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" image="雲">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="150"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="fbURL:" destination="BYZ-38-t0r" eventType="touchUpInside" id="12o-oS-8lg"/>
                                 </connections>
@@ -1023,8 +1031,8 @@
         <image name="Image-6" width="1920" height="1280"/>
         <image name="Image-7" width="1920" height="1280"/>
         <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
-        <image name="facebook_logos_PNG19754" width="512" height="512"/>
         <image name="photo-1602422801299-b40cb21ec585" width="1950" height="1301"/>
+        <image name="雲" width="1449" height="1130"/>
         <image name="雲林" width="1920" height="1280"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
